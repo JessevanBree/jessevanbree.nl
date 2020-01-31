@@ -1,0 +1,18 @@
+.nav p, .nav h1, .nav h2, .nav h3, .nav h4, .nav h5, .nav h6 {
+	color: white;
+}
+
+.navItems {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.navItems .navItem a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.navItems .navItem a:hover{
+	color: #34a26b;
+}

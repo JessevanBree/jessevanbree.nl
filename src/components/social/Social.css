@@ -1,0 +1,22 @@
+.soc p, .soc h1, .soc h2, .soc h3, .soc h4, .soc h5, .soc h6 {
+	color: white;
+}
+
+.soc {
+	margin-top: auto;
+}
+
+.socItems {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.socItems .socItem a {
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.socItems .socItem a:hover {
+	color: #34a26b;
+}
