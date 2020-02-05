@@ -28,6 +28,6 @@ html, body {
 	padding-left: 25px;
 }
 
-.main div#about {
+.main div#about, .main div#experience {
 	border-bottom: 0.5px solid black;
 }
