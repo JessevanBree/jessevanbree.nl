@@ -11,7 +11,7 @@
 	flex-flow: column;
 	align-items: center;
 	height: 100%;
-	width: 110px;
+	width: 140px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
@@ -26,4 +26,10 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.sidebar, .sidebar * {
+		display: none;
+	}
 }

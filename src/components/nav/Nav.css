@@ -12,11 +12,10 @@
 }
 
 .navItems .navItem a{
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: bold;
 	color: rgb(43, 42, 42);
 	text-decoration: none;
-	transition: all 1.5s ease;
 }
 
 .navItems .navItem a:hover{

@@ -1,0 +1,20 @@
+.mobileNav, .mobileNav .mobilePageIcon {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.mobileNav{
+		display: flex;
+		flex-direction: row;
+		height: 75px;
+		background-color: #34a26b;
+		align-items: center;
+	}
+
+	.mobileNav .mobilePageIcon{
+		display: inline-block !important;
+		color: rgb(43, 42, 42);
+		margin-left: 10px;
+	}
+}

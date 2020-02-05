@@ -10,7 +10,7 @@ export default class Sidebar extends React.Component {
 
 	render() {
 		return <div className="sidebar">
-			<FontAwesomeIcon className="pageIcon" icon={faGlobeEurope} size="4x"/>
+			<FontAwesomeIcon className="pageIcon" icon={faGlobeEurope} size="5x"/>
 			<div className="sidebarContent">
 				<Nav></Nav>
 			</div>

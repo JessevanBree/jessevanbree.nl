@@ -7,7 +7,7 @@ html, body {
 }
 
 .app {
-	margin-left: 110px;
+	margin-left: 140px;
 	padding: 0px 10px;
 }
 
@@ -24,10 +24,22 @@ html, body {
 	min-height: 100vh;
 }
 
-.main div div, .main div p, .main div h1{
+.main div div, .main div p, .main div h1, .main div h2, .main div h3, .main div h4, .main div h5, .main div h6 {
 	padding-left: 25px;
+}
+
+.main div h1 {
+	/* margin-top: 5px; */
+	margin-bottom: 5px;
 }
 
 .main div#about, .main div#experience {
 	border-bottom: 0.5px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+	.app {
+		margin-left: 0px;
+		padding: 0px;
+	}
 }
