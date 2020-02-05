@@ -11,8 +11,10 @@ function App() {
 	return ( 
 		<div className = "app" >
 			<Sidebar></Sidebar>
-			<About></About>
-			<Experience></Experience>
+			<div className="main">
+				<About></About>
+				<Experience></Experience>
+			</div>
 		</div>
 	);
 }

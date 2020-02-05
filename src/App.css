@@ -1,8 +1,33 @@
+p, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
 html, body {
 	min-height: 90vh;
 }
 
 .app {
-	margin-left: 250px;
+	margin-left: 110px;
 	padding: 0px 10px;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+}
+
+.main div#about, .main div#experience {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* align-items: ; */
+	min-height: 100vh;
+}
+
+.main div div, .main div p, .main div h1{
+	padding-left: 25px;
+}
+
+.main div#about {
+	border-bottom: 0.5px solid black;
 }

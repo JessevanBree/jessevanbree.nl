@@ -9,14 +9,13 @@ export default class Nav extends React.Component {
 	constructor(prop) {
 		super(prop);
 		this.state.navItems = [
-			{ link: "#about", text: "About me" },
+			{ link: "#about", text: "About" },
 			{ link: "#experience", text: "Experience" },
 		]
 	}
 
 	render() {
 		return (<div className="nav">
-			<h4 className="sideSubTitle">Links</h4>
 			<ul className="navItems">
 				{
 					this.state.navItems.map((item, index) => {

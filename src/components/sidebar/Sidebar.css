@@ -1,23 +1,26 @@
 .sbTitle {
-	margin-left: 40px;
-	color: #34a26b;
+	color: rgb(43, 42, 42);
 }
 
-
-.sideSubTitle {
-	margin-left: 40px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+.pageIcon {
+	color: rgb(43, 42, 42);
 }
 
 .sidebar {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
 	height: 100%;
-	width: 250px;
+	width: 110px;
 	position: fixed;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: rgb(43, 42, 42);
+	background-color: #34a26b;
 	overflow-x: hidden;
 	padding-top: 16px;
+}
+
+.nav {
+	margin-top: 15px;
 }

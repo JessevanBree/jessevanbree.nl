@@ -3,20 +3,36 @@
 }
 
 .soc {
-	margin-top: auto;
+	/* margin-top: auto; */
+	/* margin-bottom: 16px; */
 }
 
 .socItems {
+	display: flex;
+	flex-direction: row;
+	padding-left: 0px;
 	margin-top: 10px;
 	list-style: none;
 }
 
 .socItems .socItem a {
-	color: white;
-	font-size: 18px;
-	text-decoration: none;
+	/* color: black; */
+	/* font-size: 18px;
+	text-decoration: none; */
+
+	display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff!important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
 }
 
 .socItems .socItem a:hover {
-	color: #34a26b;
+	background-color: #34a26b;
+	
 }
