@@ -21,6 +21,9 @@
 	padding-top: 16px;
 }
 
-.nav {
-	margin-top: 15px;
+.sidebarContent {
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }

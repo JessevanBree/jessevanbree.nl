@@ -11,6 +11,7 @@ export default class Nav extends React.Component {
 		this.state.navItems = [
 			{ link: "#about", text: "About" },
 			{ link: "#experience", text: "Experience" },
+			{ link: "#diploma", text: "Diploma" },
 		]
 	}
 

@@ -16,7 +16,7 @@ html, body {
 	flex-direction: column;
 }
 
-.main div#about, .main div#experience {
+.main div#about, .main div#experience, .main div#education  {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
